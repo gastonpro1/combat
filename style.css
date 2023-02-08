@@ -1,8 +1,9 @@
 /* index.php */
 
 body {
-    background-color: black;
-    display: flex;
+    background: url(/image/Combat.gif);
+    background-size: cover;
+    text-align: center;
     align-items: center;
     justify-content: center;
     letter-spacing: 0, 5px;
@@ -14,10 +15,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: green;
+    
     padding: 20px 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     color: white;
+    margin-top: 40px;
 }
 
 .menu a {
@@ -27,17 +29,23 @@ body {
     color: brown;
     padding: 0 20px;
     transition: 0, 5s;
+    
 }
 
 section {
     margin-top: 200px;
-    background-color: green;
+    background-color: transparent;
     padding: 180px;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
     margin-bottom: 10px;
+}
+
+.yo{
+    align-items: center;
+    padding: 100px;
 }
 
 .style_btn {
@@ -63,11 +71,43 @@ section {
 .pseudo form input {
     outline: 0;
     border: 0;
-    border-bottom: 1px solid gray;
-    margin: 20px 0;
-    width: 350px;
+    border-bottom: 1px solid rgb(250, 247, 247);
+    margin: 10px 0;
+    width: 250px;
     padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
 
+}
+h1{
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+.nbperso{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+}
+.titi{
+    color: white;
+}
+
+form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.select{
+    width: 250px;
+    border-radius: 10px;
+    height: 45px;
+    
+    
 }
 
 /* Fin index.php */

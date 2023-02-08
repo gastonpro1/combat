@@ -15,7 +15,7 @@
 
 <div class="menu">
 
-<h1> <strong> Combat GO </strong> </h1>
+<h1> <strong class="yo"> Combat GO </strong> </h1>
 
 </div>
     
@@ -34,7 +34,7 @@
                     if(isset($error)) echo $error;
                 ?>    
             </p>
-            <p>
+            <p class="titi">
         Nom : <input type="text" name="nom" maxlength="10" /> <input type="submit" value="Utiliser ce personnage" name="utiliser" /><br />
         Type :
         <select name="type" class="select">
